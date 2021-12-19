@@ -11,6 +11,8 @@
 .logo p{
     font-size:18px;
     padding:20px;
+    color:white;
+    transition: 100ms;
 }
 
 .logo p:hover{
@@ -76,13 +78,20 @@
     height:400px;
     transition: 0.5s;
     transform: translateY(100px);
-    bottom:0;
+    opacity:0;
+    padding-top:200px;
+    padding-left:40px;:
+
+    
 }
 
 .info:hover{
     transform: translateY(0);
+    height:200px;
     opacity: 0.7;
-    background-color:black;
+    background-color:rgb(53, 45, 45);
+    display:block;
+    color:white;
 }
 
 .card::before{
@@ -112,6 +121,35 @@
     flex-basis:100%;
     flex:1;
 }
+
+button{
+    padding:10px;
+    margin-top:10px;
+    border-radius:10px;
+    border:none;
+    background: orangered;
+    color:white;
+    opacity:1;
+    cursor: pointer;
+    font-size:18px;
+}
+
+
+footer{
+    display:flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
