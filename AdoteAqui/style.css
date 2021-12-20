@@ -160,6 +160,7 @@ footer{
 
     .header ul{
         flex-direction: column;
+        height:100px;
     }
 
     .header li{
@@ -168,5 +169,14 @@ footer{
 
     .header{
         justify-content: flex-end;
+        height:100px;
+    }
+
+    .pets-available .container{
+        width:100%;
+    }
+
+    .row{
+        display:block;
     }
 }
